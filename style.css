@@ -1,0 +1,128 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: auto;
+    padding: 0;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+}
+
+h2{
+    color: #13103A;
+    font-size: 48px;
+}
+
+h4{
+    color: #000000;
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.text-purple{
+    color: #5f0a87;
+}
+
+.button-bg{
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+.button-bg:hover{
+    box-shadow: 1px 1px 1px #333333;
+    background-color: #5f0a87;
+    background-image: linear-gradient(326deg, #5f0a87 0%,#a4508b 74%);
+}
+
+/* Top Banner Section Style */
+#top-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    align-self: center;
+    width: 50%;
+}
+
+.banner-content h1{
+    border-left: 4px solid #5f0a87;
+    padding-left: 10px;
+}
+
+.banner-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img img{
+    width: 80%;
+}
+
+/* Mission Section Style */
+#mission-sec{
+    margin: 20px 0;
+    padding: 25px;
+}
+
+#mission-sec h2{
+    text-align: center;
+}
+#mission-sec img{
+    width: 131px;
+    margin: 0;
+    padding: 0;
+}
+
+#mission-item{
+    display: flex;
+}
+
+#mission-item div p{
+    font-size: 16px;
+    color: #424242;
+}
+
+#mission-item div{
+    margin: 10px;
+    width: 360px;
+    height: 376px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.mission{
+    background-color: #edf5f6;
+}
+
+.vission{
+    background-color: #ffeeee;
+}
+
+.goals{
+    background-color: #fff4d6;
+}
