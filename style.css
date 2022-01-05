@@ -1,6 +1,7 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body{
     margin: auto;
@@ -122,15 +123,15 @@ a{
     border-radius: 20px;
 }
 
-.mission{
+#mission{
     background-color: #edf5f6;
 }
 
-.vission{
+#vission{
     background-color: #ffeeee;
 }
 
-.goals{
+#goals{
     background-color: #fff4d6;
 }
 
@@ -171,4 +172,22 @@ a{
     width: 235px;
     text-align: center;
     margin-top: 10px;
+}
+
+/* Footer Style */
+footer{
+    text-align: center;
+    background-color: #23262e;
+    color: #ffffff;
+    padding: 30px;
+}
+footer h4{
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    margin: 5px;
+    font-weight: 300;
+}
+
+footer h4 .text-purple{
+    color: #9f1edb;
 }
