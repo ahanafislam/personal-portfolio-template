@@ -20,6 +20,11 @@ h2{
     font-size: 48px;
 }
 
+h3{
+    font-size: 36px;
+    margin: 0;
+}
+
 h4{
     color: #000000;
     font-size: 24px;
@@ -27,10 +32,12 @@ h4{
 
 p{
     font-size: 18px;
+    color: #3E3E3E;
 }
 
 a{
     text-decoration: none;
+    font-size: 16px;
 }
 
 #container{
@@ -125,4 +132,43 @@ a{
 
 .goals{
     background-color: #fff4d6;
+}
+
+/* Blog Section Style */
+#blog{
+    margin-top: 3rem;
+}
+
+.blog-item{
+    display: flex;
+    margin-bottom: 3.5rem;
+    justify-content: space-around;
+}
+
+.blog-img{
+    width: 45%;
+    text-align: center;
+}
+
+.blog-img img{
+    width: 400px;
+}
+
+.blog-content{
+    width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.blog-content p{
+    margin: 10px 0;
+}
+
+.blog-content a{
+    width: 235px;
+    text-align: center;
+    margin-top: 10px;
 }
