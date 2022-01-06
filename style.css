@@ -149,10 +149,14 @@ a{
 .blog-img{
     width: 45%;
     text-align: center;
+    background-image: url(images/shape/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position: center;
 }
 
 .blog-img img{
-    width: 400px;
+    width: 370px;
 }
 
 .blog-content{
@@ -162,6 +166,7 @@ a{
     flex-direction: column;
     align-items: flex-start;
     padding: 5px;
+    margin-left: 30px;
 }
 
 .blog-content p{
